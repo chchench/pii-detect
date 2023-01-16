@@ -19,12 +19,10 @@
 
 @interface DetectedSensitiveData : NSObject {
     
-    NSString *_filepath;
     NSString *_detectedValue;
     NSRange _location;
 }
 
-@property (nonatomic, copy) NSString *filepath;
 @property (nonatomic, copy) NSString *detectedValue;
 @property NSRange location;
 

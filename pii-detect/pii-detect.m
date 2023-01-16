@@ -12,7 +12,6 @@
 
 @implementation DetectedSensitiveData
 
-@synthesize filepath = _filepath;
 @synthesize detectedValue = _detectedValue;
 @synthesize location = _location;
 
